@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#upload-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#upload-form fieldset{
+width: 400px;
+height: 200px;
+text-align: center;
+margin-top: 50px;
+font-size: 2.5ch;
+}
+#upload-form button{
+    width: 100px;height: 30px;cursor: pointer;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding-inline: 5%;
+    font-size: 3ch;
+}
+.menu{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu div:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+.lists-page{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2ch;
+    border: 1px solid black;
+    width: 600px;
+    height: 50px;
+}
+.lists-page button{
+    width: 100px;height: 30px;cursor: pointer;
+}
+
